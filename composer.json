@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "slim/slim": "3.*",
+        "firebase/php-jwt": "^5.0",
+        "tuupola/slim-jwt-auth": "^3.5",
+        "vlucas/phpdotenv": "^5.2",
+        "cboden/ratchet": "^0.4.3",
+        "monolog/monolog": "^1.26"
+    }
+}
